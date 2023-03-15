@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 35247824}
   - component: {fileID: 35247825}
+  - component: {fileID: 35247826}
   m_Layer: 0
   m_Name: FPS_PLAYER
   m_TagString: Untagged
@@ -175,6 +176,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &35247826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35247823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767142dda49040247b2cab30bcbabece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 519271548}
 --- !u!4 &243695017 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011191723762, guid: 128f20fd9fec12b4e9587d7fd19322b7, type: 3}
