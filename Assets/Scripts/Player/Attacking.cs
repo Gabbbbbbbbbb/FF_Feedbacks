@@ -4,26 +4,15 @@ using UnityEngine;
 
 public class Attacking : MonoBehaviour
 {
-    public Animator _animator;
+    public GameObject Sword;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButton(0))
         {
             Debug.Log("Pressed left click.");
-            _animator.SetBool("Attack", true);
-        }
-
-        else
-        {
-            _animator.SetBool("Attack", false);
+            
+            Sword.GetComponent<Animator>().Play("AbilityT");
         }
     }
 }
