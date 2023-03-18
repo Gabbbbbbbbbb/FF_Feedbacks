@@ -34,10 +34,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Abilityy
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2800009087267694764}
   m_Solo: 0
@@ -113,7 +110,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New State
-  m_Speed: 1
+  m_Speed: 20
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -1628942134621130112}
@@ -129,7 +126,7 @@ AnimatorState:
   m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
-  m_MirrorParameter: 
+  m_MirrorParameter: Abilityy
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 --- !u!1107 &4770545954701080579

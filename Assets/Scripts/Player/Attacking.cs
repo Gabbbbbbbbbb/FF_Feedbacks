@@ -4,36 +4,53 @@ using UnityEngine;
 
 public class Attacking : MonoBehaviour
 {
+
     public GameObject Sword;
 
-    private bool Abilityy = false;
+    //private bool Abilityy = false;
 
-    private Animator animator;
+    private Animator m_Animator;
+    bool Ability;
 
     private void Start()
     {
-       Animator anim = GetComponent<Animator>();
+       //Animator anim = GetComponent<Animator>();
+
+        m_Animator = gameObject.GetComponent<Animator>();
+        Ability = false;
     }
 
-    /*void Update()
+    void Update()
     {
         if (Input.GetMouseButton(0))
         {
             Debug.Log("Pressed left click.");
 
-            animator.SetBool("Abilityy", true);
+            Ability = true;
 
-
-            //Sword.GetComponent<Animator>().Play("AbilityT");
-
+            //animator.SetBool("Abilityy", true);
+            //Sword.GetComponent<Animator>().Play("Abilityy");
             //itAnim();
         }
 
         else
         {
-            animator.SetBool("Abilityy", false);
+            //animator.SetBool("Abilityy", false);
+
+            Ability = false;
         }
-    }*/
+
+        if (Ability == true)
+        {
+            m_Animator.SetBool("Abilityy", true);
+        }
+        if (Ability == false)
+        {
+            m_Animator.SetBool("Abilityy", false);
+        }
+
+    }
+
     /*private void HitAnim()
     {
         if (Att)
@@ -47,7 +64,7 @@ public class Attacking : MonoBehaviour
         }*/
 
 
-    void Update()
+    /*void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -60,5 +77,5 @@ public class Attacking : MonoBehaviour
         {
             animator.SetBool("Abilityy", false);
         }
-    }
+    }*/
 }

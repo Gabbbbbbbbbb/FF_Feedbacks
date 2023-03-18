@@ -183,7 +183,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35247823}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 767142dda49040247b2cab30bcbabece, type: 3}
   m_Name: 
@@ -290,6 +290,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &519271551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519271547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767142dda49040247b2cab30bcbabece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sword: {fileID: 519271547}
 --- !u!1 &543143361
 GameObject:
   m_ObjectHideFlags: 0
