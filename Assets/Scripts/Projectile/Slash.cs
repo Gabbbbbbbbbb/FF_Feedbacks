@@ -5,15 +5,11 @@ using UnityEngine;
 public class Slash : MonoBehaviour
 {
     public Rigidbody rb;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 30f;
 
-    // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, 5);
+        rb.velocity = transform.forward * speed;
+        Destroy(gameObject, 3);
     }
 }
