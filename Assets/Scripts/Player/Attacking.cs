@@ -7,15 +7,13 @@ public class Attacking : MonoBehaviour
 
     public GameObject Sword;
 
-    //private bool Abilityy = false;
-
     private Animator m_Animator;
     bool Ability;
+    public Transform Spawn;
+    public GameObject projectile;
 
     private void Start()
     {
-       //Animator anim = GetComponent<Animator>();
-
         m_Animator = gameObject.GetComponent<Animator>();
         Ability = false;
     }
@@ -35,7 +33,6 @@ public class Attacking : MonoBehaviour
 
         else
         {
-            //animator.SetBool("Abilityy", false);
 
             Ability = false;
         }
@@ -50,32 +47,4 @@ public class Attacking : MonoBehaviour
         }
 
     }
-
-    /*private void HitAnim()
-    {
-        if (Att)
-        {
-            animator.SetBool("Att", true);
-        }
-
-        else
-        {
-            animator.SetBool("Att", false);
-        }*/
-
-
-    /*void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("Eurêka");
-            //fire = true;
-            animator.SetBool("Abilityy", true);
-        }
-
-        else
-        {
-            animator.SetBool("Abilityy", false);
-        }
-    }*/
 }
