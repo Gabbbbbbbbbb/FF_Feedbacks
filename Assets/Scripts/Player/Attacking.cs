@@ -11,6 +11,16 @@ public class Attacking : MonoBehaviour
     bool Ability;
     public Transform Spawn;
     public GameObject projectile;
+    public float fireRate = 2000f;
+    private float nextFire = 0.0f;
+
+    public float timeRemaining = 1;
+    public bool timerIsRunning = false;
+
+    public float animeSlash = 1f;
+    public bool animeTimer = false;
+
+    public bool CanShoot = true;
 
     private void Start()
     {
@@ -23,9 +33,16 @@ public class Attacking : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             Debug.Log("Pressed left click.");
-
             Ability = true;
+            timerIsRunning = true;
+            animeTimer = true;
 
+            if (Time.time > nextFire && timeRemaining == 1 && animeSlash == 0)
+            {
+                nextFire = Time.time + fireRate;
+                Instantiate(projectile, Spawn.position, Spawn.rotation);
+                animeSlash = 1f;
+            }
             //animator.SetBool("Abilityy", true);
             //Sword.GetComponent<Animator>().Play("Abilityy");
             //itAnim();
@@ -33,7 +50,6 @@ public class Attacking : MonoBehaviour
 
         else
         {
-
             Ability = false;
         }
 
@@ -44,6 +60,36 @@ public class Attacking : MonoBehaviour
         if (Ability == false)
         {
             m_Animator.SetBool("Abilityy", false);
+        }
+
+        if (timerIsRunning)
+        {
+            if (timeRemaining > 0)
+            {
+                timeRemaining -= Time.deltaTime;
+            }
+
+            else
+            {
+                CanShoot = true;
+                timeRemaining = 0;
+                timerIsRunning = false;
+                timeRemaining = 1;
+            }
+        }
+
+        if (animeTimer)
+        {
+            if (animeSlash > 0)
+            {
+                animeSlash -= Time.deltaTime;
+            }
+
+            else
+            {
+                animeSlash = 0;
+                animeTimer = false;
+            }
         }
 
     }

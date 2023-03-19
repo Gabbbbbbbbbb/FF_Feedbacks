@@ -289,6 +289,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sword: {fileID: 519271547}
+  Spawn: {fileID: 567481962}
+  projectile: {fileID: 4889673267425888714, guid: f55a8c8dd21febb4a83247ae7ff119af, type: 3}
+  fireRate: 0.3
+  timeRemaining: 1
+  timerIsRunning: 0
+  animeSlash: 0.5
+  animeTimer: 0
+  CanShoot: 1
 --- !u!1 &543143361
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,14 +414,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567481961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.446}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6156726, w: 0.78800213}
+  m_LocalPosition: {x: 0, y: -0.14, z: 1.446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 691120230}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 76.002}
 --- !u!1 &691120227
 GameObject:
   m_ObjectHideFlags: 0
