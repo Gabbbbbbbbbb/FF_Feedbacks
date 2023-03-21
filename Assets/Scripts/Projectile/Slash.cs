@@ -12,4 +12,15 @@ public class Slash : MonoBehaviour
         rb.velocity = transform.forward * speed;
         Destroy(gameObject, 3);
     }
+
+    void OnColliderEnter(Collision collision)
+    {
+        Debug.Log("Collide");
+        Destroy(gameObject);
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        Destroy(gameObject);
+    }
 }
