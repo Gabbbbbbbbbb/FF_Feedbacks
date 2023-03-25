@@ -113,6 +113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: -6089969628045372078}
   speed: 10
+  HitSlash: {fileID: 4006619499907679490, guid: 6366e330b2b5dd44980ae4646657536c, type: 3}
+  spawn: {fileID: 8437474429091697578}
 --- !u!54 &-6089969628045372078
 Rigidbody:
   m_ObjectHideFlags: 0

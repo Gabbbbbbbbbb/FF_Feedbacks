@@ -7,20 +7,20 @@ public class Slash : MonoBehaviour
     public Rigidbody rb;
     public float speed = 30f;
 
+    //Pour spawn les particules.
+    public GameObject HitSlash;
+    public Transform spawn;
+
     void Update()
     {
         rb.velocity = transform.forward * speed;
         Destroy(gameObject, 3);
     }
 
-    void OnColliderEnter(Collision collision)
-    {
-        Debug.Log("Collide");
-        Destroy(gameObject);
-    }
-
     void OnTriggerEnter(Collider collision)
     {
+        Instantiate(HitSlash, spawn.position, spawn.rotation);
+
         Destroy(gameObject);
     }
 }
