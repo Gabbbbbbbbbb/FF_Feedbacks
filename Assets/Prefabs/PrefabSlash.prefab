@@ -33,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 511580590813757297}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &41595260279870337
 CapsuleCollider:
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 41595260279870350}
   speed: 10
-  HitSlash: {fileID: 41595260279870351}
+  HitSlash: {fileID: 4006619499907679490, guid: 6366e330b2b5dd44980ae4646657536c, type: 3}
   spawn: {fileID: 41595260279870336}
 --- !u!54 &41595260279870350
 Rigidbody:
