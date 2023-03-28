@@ -22,12 +22,15 @@ public class Attacking : MonoBehaviour
 
     public bool CanShoot = true;
 
+    public GameObject Sound;
+
     private void Start()
     {
         m_Animator = gameObject.GetComponent<Animator>();
         Ability = false;
     }
 
+    //Two timers in progress
     void Update()
     {
         if (Input.GetMouseButton(0))
@@ -43,9 +46,6 @@ public class Attacking : MonoBehaviour
                 Instantiate(projectile, Spawn.position, Spawn.rotation);
                 animeSlash = 1f;
             }
-            //animator.SetBool("Abilityy", true);
-            //Sword.GetComponent<Animator>().Play("Abilityy");
-            //itAnim();
         }
 
         else
@@ -92,5 +92,14 @@ public class Attacking : MonoBehaviour
             }
         }
 
+        if(animeTimer == true)
+        {
+            Sound.SetActive(true);
+        }
+
+        if (animeTimer == false)
+        {
+            Sound.SetActive(false);
+        }
     }
 }
