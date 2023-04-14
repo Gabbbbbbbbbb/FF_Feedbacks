@@ -14421,6 +14421,7 @@ GameObject:
   - component: {fileID: 691120230}
   - component: {fileID: 691120229}
   - component: {fileID: 691120231}
+  - component: {fileID: 691120233}
   - component: {fileID: 691120228}
   - component: {fileID: 691120232}
   m_Layer: 0
@@ -14531,6 +14532,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &691120233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691120227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ba5ef4665b74e469c609ae0cfdd52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &709574552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 296d447c5b455be4887843029e013e42, type: 3}
@@ -14822,7 +14835,6 @@ GameObject:
   m_Component:
   - component: {fileID: 759067279}
   - component: {fileID: 759067280}
-  - component: {fileID: 759067281}
   m_Layer: 0
   m_Name: ParentCam
   m_TagString: Untagged
@@ -14861,18 +14873,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 500
   playerBody: {fileID: 35247824}
---- !u!114 &759067281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ba5ef4665b74e469c609ae0cfdd52a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &765473348
 PrefabInstance:
   m_ObjectHideFlags: 0

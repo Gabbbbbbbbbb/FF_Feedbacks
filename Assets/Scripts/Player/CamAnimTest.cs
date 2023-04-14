@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class CamAnimTest : MonoBehaviour
 {
+    private Animator m_Animator;
 
+    bool Movement;
 
     void Start()
     {
-        
+        m_Animator = gameObject.GetComponent<Animator>();
+        Movement = false;
     }
 
     void Update()
@@ -16,6 +19,23 @@ public class CamAnimTest : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             Debug.Log("Click");
+            Movement = true;
+        }
+
+
+        else
+        {
+            Movement = false;
+        }
+
+        if (Movement == true)
+        {
+            m_Animator.SetBool("Move", true);
+        }
+
+        if (Movement == false)
+        {
+            m_Animator.SetBool("Move", false);
         }
     }
 }
