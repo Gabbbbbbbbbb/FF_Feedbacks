@@ -11,12 +11,13 @@ public class TreeHit : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
 
-        rb.velocity = Vector3.zero;
+        //rb.velocity = Vector3.zero;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Used to detect if something is moving (using his Rigidbody).
         if (rb.velocity.x > 0 || rb.velocity.y > 0)
         {
             Debug.Log("It's moving");
@@ -24,6 +25,9 @@ public class TreeHit : MonoBehaviour
             Destroy(Sound, 5);
         }
     }
+
+
+    //Ancient code to detect when a tree is hit by the projectile.
 
     /*void OnTriggerEnter(Collider collision)
     {
