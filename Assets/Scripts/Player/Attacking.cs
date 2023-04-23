@@ -43,7 +43,6 @@ public class Attacking : MonoBehaviour
             if (Time.time > nextFire && timeRemaining == 1 && animeSlash == 0)
             {
                 nextFire = Time.time + fireRate;
-                Instantiate(projectile, Spawn.position, Spawn.rotation);
                 animeSlash = 1f;
             }
         }
@@ -101,5 +100,11 @@ public class Attacking : MonoBehaviour
         {
             Sound.SetActive(false);
         }
+    }
+
+    public void Slash()
+    {
+        //Debug.Log("Test");
+        Instantiate(projectile, Spawn.position, Spawn.rotation);
     }
 }
