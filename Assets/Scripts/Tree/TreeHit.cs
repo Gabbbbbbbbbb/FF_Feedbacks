@@ -6,18 +6,26 @@ using TMPro;
 
 public class TreeHit : MonoBehaviour
 {
-    public Rigidbody rb;
-    public GameObject Sound;
+    [SerializeField] private Rigidbody rb;
+    [SerializeField] private GameObject Sound;
 
-    //For the score.
-    public TextMeshProUGUI ScoreText;
+    [Header("Texte")]
+    [SerializeField] private TextMeshProUGUI ScoreText;
     int Value = 0;
+
+    [Header("Slider")]
+    [SerializeField] private Slider RepSlider;
+    [SerializeField] private int MinSlider = 0;
+    [SerializeField] private int MaxSlider = 5;
+    [SerializeField] private int CurrentSlider;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        //rb.velocity = Vector3.zero;
+        RepSlider.maxValue = MaxSlider;
+        RepSlider.minValue = MinSlider;
+        CurrentSlider = MinSlider;
     }
 
     // Update is called once per frame
@@ -26,7 +34,7 @@ public class TreeHit : MonoBehaviour
         //Used to detect if something is moving (using his Rigidbody).
         if (rb.velocity.x > 0 || rb.velocity.y > 0)
         {
-            Debug.Log("It's moving");
+            //Debug.Log("It's moving");
             Sound.SetActive(true);
             Destroy(Sound, 5);
         }
@@ -36,32 +44,13 @@ public class TreeHit : MonoBehaviour
     {
         if (collision.CompareTag("Terrain"))
         {
-            //Debug.Log("The ground");
-            Value = Value + 1;
+            Debug.Log("The ground");
+            Value++;
             ScoreText.text = Value.ToString();
-            
 
+            CurrentSlider++;
+            RepSlider.value = CurrentSlider;
         }
     }
-
-
-    //Ancient code to detect when a tree is hit by the projectile.
-
-    /*void OnTriggerEnter(Collider collision)
-    {
-        if (collision.CompareTag("Projectile"))
-        {
-            Sound.SetActive(true);
-            Destroy(Sound, 5);
-        }
-    }
-
-    void OnColliderEnter(Collider tree)
-    {
-        if (tree.CompareTag("Projectile"))
-        {
-            Sound.SetActive(true);
-            Destroy(Sound, 5);
-        }
-    }*/
+    //bool pour indiquer quelle slider est actif ou non. À vérif dès qu'il y a collision.
 }

@@ -18,7 +18,7 @@ public class CamAnimTest : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Debug.Log("Click");
+            //Debug.Log("Click");
             Movement = true;
         }
 

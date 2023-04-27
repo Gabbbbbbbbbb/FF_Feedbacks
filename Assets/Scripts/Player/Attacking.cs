@@ -35,7 +35,7 @@ public class Attacking : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Debug.Log("Pressed left click.");
+            //Debug.Log("Pressed left click.");
             Ability = true;
             timerIsRunning = true;
             animeTimer = true;
