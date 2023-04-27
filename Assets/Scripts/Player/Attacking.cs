@@ -93,12 +93,12 @@ public class Attacking : MonoBehaviour
 
         if(animeTimer == true)
         {
-            Sound.SetActive(true);
+            //Sound.SetActive(true);
         }
 
         if (animeTimer == false)
         {
-            Sound.SetActive(false);
+            //Sound.SetActive(false);
         }
     }
 
@@ -106,5 +106,11 @@ public class Attacking : MonoBehaviour
     {
         //Debug.Log("Test");
         Instantiate(projectile, Spawn.position, Spawn.rotation);
+    }
+
+    public void SlashSound()
+    {
+        //Mettre la génération du son pour le slash ici via Anim Event.
+        Instantiate(Sound, Spawn.position, Spawn.rotation);
     }
 }
