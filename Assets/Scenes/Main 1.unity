@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -362,6 +366,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -477,6 +485,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -5465,6 +5477,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -5580,6 +5596,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -5695,6 +5715,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -5815,6 +5839,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -5930,6 +5958,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6041,6 +6073,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents:
     - {fileID: 7030504560393799672, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
     m_AddedGameObjects: []
@@ -6122,6 +6158,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6237,6 +6277,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6352,6 +6396,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6467,6 +6515,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6660,6 +6712,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6775,6 +6831,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -6957,6 +7017,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7163,6 +7227,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7283,6 +7351,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7403,6 +7475,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7518,6 +7594,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7633,6 +7713,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7748,6 +7832,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7863,6 +7951,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -7978,6 +8070,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8090,6 +8186,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8170,6 +8270,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8285,6 +8389,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8464,6 +8572,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8579,6 +8691,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8694,6 +8810,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -8962,6 +9082,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -9617,6 +9741,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -14577,6 +14705,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -14692,6 +14824,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -14807,6 +14943,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -14922,6 +15062,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -15037,6 +15181,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -15382,6 +15530,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -15561,6 +15713,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -15725,6 +15881,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -15840,6 +16000,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16033,6 +16197,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16148,6 +16316,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16327,6 +16499,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16442,6 +16618,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16557,6 +16737,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16672,6 +16856,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16787,6 +16975,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -16902,6 +17094,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -17017,6 +17213,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -17132,6 +17332,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -17311,6 +17515,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -17540,6 +17748,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -17783,6 +17995,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -17898,6 +18114,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18013,6 +18233,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18128,6 +18352,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18324,6 +18552,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18458,6 +18690,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18573,6 +18809,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18688,6 +18928,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18808,6 +19052,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -18923,6 +19171,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -19038,6 +19290,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -19338,6 +19594,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -19453,6 +19713,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -19666,6 +19930,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -19781,6 +20049,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -19915,6 +20187,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20067,6 +20343,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20182,6 +20462,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20297,6 +20581,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20412,6 +20700,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20527,6 +20819,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20642,6 +20938,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20757,6 +21057,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20872,6 +21176,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -20987,6 +21295,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21139,6 +21451,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21250,6 +21566,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21267,26 +21587,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1420763957}
-  - component: {fileID: 1420763956}
+  - component: {fileID: 1420763958}
   m_Layer: 0
-  m_Name: ScoreDisplay
+  m_Name: Game_Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1420763956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420763955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46ee420abd108374a86916081ad86995, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1420763957
 Transform:
   m_ObjectHideFlags: 0
@@ -21302,6 +21610,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1420763958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420763955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06edf60359bd2894487a6335260b7431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RepSlider: {fileID: 228971485}
+  MinSlider: 0
+  MaxSlider: 5
+  CurrentSlider: 0
+  ScoreText: {fileID: 1933646939}
 --- !u!1001 &1432813962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21374,6 +21699,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21489,6 +21818,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21707,6 +22040,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21822,6 +22159,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -21937,6 +22278,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22052,6 +22397,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22167,6 +22516,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22282,6 +22635,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22397,6 +22754,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22531,6 +22892,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22646,6 +23011,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22825,6 +23194,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -22940,6 +23313,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -27869,6 +28246,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28027,6 +28408,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28161,6 +28546,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28276,6 +28665,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28391,6 +28784,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28506,6 +28903,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28699,6 +29100,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28814,6 +29219,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -28929,6 +29338,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29044,6 +29457,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29159,6 +29576,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29274,6 +29695,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29389,6 +29814,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29504,6 +29933,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29619,6 +30052,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -29734,6 +30171,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30005,6 +30446,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30120,6 +30565,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30235,6 +30684,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30350,6 +30803,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30465,6 +30922,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30656,6 +31117,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30771,6 +31236,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -30886,6 +31355,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -31001,6 +31474,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -31116,6 +31593,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -31231,6 +31712,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
@@ -31346,6 +31831,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1933646939}
+    - target: {fileID: 1416607210, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
+      propertyPath: GameManagerUI
+      value: 
+      objectReference: {fileID: 1420763958}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ed1fa325ca228645ad26dd6eff14768, type: 3}
