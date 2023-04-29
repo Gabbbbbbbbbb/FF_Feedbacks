@@ -91,7 +91,7 @@ public class Attacking : MonoBehaviour
             }
         }
 
-        if(animeTimer == true)
+        /*if(animeTimer == true)
         {
             //Sound.SetActive(true);
         }
@@ -99,18 +99,24 @@ public class Attacking : MonoBehaviour
         if (animeTimer == false)
         {
             //Sound.SetActive(false);
-        }
+        }*/
     }
 
+    //Called by Animation Event on Ability anim (RB_Falchion). Creates the slash projectile.
     public void Slash()
     {
         //Debug.Log("Test");
         Instantiate(projectile, Spawn.position, Spawn.rotation);
     }
 
-    public void SlashSound()
+    //Is called to set Active True the empty with the sword sound.
+    public void SweepSound()
     {
-        //Mettre la génération du son pour le slash ici via Anim Event.
-        Instantiate(Sound, Spawn.position, Spawn.rotation);
+        Sound.SetActive(true);
+    }
+
+    public void EndSweep()
+    {
+        Sound.SetActive(false);
     }
 }

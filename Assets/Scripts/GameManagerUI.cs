@@ -20,6 +20,10 @@ public class GameManagerUI : MonoBehaviour
     public Animator m_Animator;
     [SerializeField] private bool F_Slide = true;
 
+    [Header("+1 Score")]
+    [SerializeField] private Transform UiSpawn;
+    [SerializeField] private GameObject ScorePlus;
+
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
     {
@@ -46,6 +50,8 @@ public class GameManagerUI : MonoBehaviour
             m_Animator.SetTrigger("Achieved");
             F_Slide = false;
         }
+
+        Instantiate(ScorePlus, UiSpawn.transform);
     }
 
 
