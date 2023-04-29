@@ -26,18 +26,18 @@ public class GameManagerUI : MonoBehaviour
 
     [Header("Slider Text")]
     [SerializeField] private TextMeshProUGUI ObjectiveNb;
-    //int Obje = 5;
+    [SerializeField] private TextMeshProUGUI CurrentSco;
 
+    [Header("Sound")]
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioClip Transi;
+    
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
     {
         RepSlider.maxValue = MaxSlider;
         RepSlider.minValue = MinSlider;
         CurrentSlider = MinSlider;
-
-        m_Animator.gameObject.GetComponent<Animator>();
-
-        //ObjectiveNb.text = MaxSlider.ToString();
     }
 
     //Called by the TreeHit script.
@@ -50,11 +50,13 @@ public class GameManagerUI : MonoBehaviour
         Value++;
         ScoreText.text = Value.ToString();
 
+        CurrentSco.text = CurrentSlider.ToString();
+
         if(CurrentSlider >= MaxSlider && F_Slide)
         {
             //Debug.Log("Plus");
             m_Animator.SetTrigger("Achieved");
-
+            source.PlayOneShot(Transi);
             ScorePlusPlus();
         }
 
@@ -63,8 +65,9 @@ public class GameManagerUI : MonoBehaviour
 
     public void ScorePlusPlus()
     {
-        CurrentSlider = 0;
-        MaxSlider += 5;
+        CurrentSlider = MinSlider;
+        CurrentSco.text = CurrentSlider.ToString();
+        MaxSlider += 10;
         RepSlider.value = CurrentSlider;
         RepSlider.maxValue = MaxSlider;
 
