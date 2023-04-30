@@ -31,6 +31,10 @@ public class GameManagerUI : MonoBehaviour
     [Header("Sound")]
     [SerializeField] private AudioSource source;
     [SerializeField] private AudioClip Transi;
+
+    [Header("Reputation text")]
+    [SerializeField] private TextMeshProUGUI ReputationText;
+    [SerializeField] private GameObject RepTextActive;
     
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
@@ -57,6 +61,7 @@ public class GameManagerUI : MonoBehaviour
             //Debug.Log("Plus");
             m_Animator.SetTrigger("Achieved");
             source.PlayOneShot(Transi);
+            RepTextActive.SetActive(true);
             ScorePlusPlus();
         }
 
