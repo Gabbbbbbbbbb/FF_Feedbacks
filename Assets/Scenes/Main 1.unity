@@ -8357,7 +8357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'NEW TITLE EARNED : LUMBERJACK'
+  m_text: 'NEW TITLE EARNED : GRAVEL FIGHTER'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15643,7 +15643,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'NEW TITLE EARNED : LUMBERJACK'
+  m_text: 'NEW TITLE EARNED : STONE KILLER'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24149,6 +24149,8 @@ MonoBehaviour:
   ScoreRock: {fileID: 2128669106}
   ObjectiveR: {fileID: 1195074846}
   r_Animator: {fileID: 1290270618}
+  RockOne: {fileID: 351471917}
+  RockTwo: {fileID: 604926372}
 --- !u!1001 &1432813962
 PrefabInstance:
   m_ObjectHideFlags: 0

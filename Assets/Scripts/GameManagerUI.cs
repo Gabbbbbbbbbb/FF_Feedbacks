@@ -47,6 +47,10 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI ObjectiveR;
     [SerializeField] private Animator r_Animator;
 
+    [Header("Reputation Rock")]
+    [SerializeField] private GameObject RockOne;
+    [SerializeField] private GameObject RockTwo;
+
 
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
@@ -119,6 +123,16 @@ public class GameManagerUI : MonoBehaviour
 
         ScoreRock.text = CurrentRocks.ToString();
         ObjectiveR.text = MaxRock.ToString();
+
+        if (MaxRock == 10 && CurrentRocks == 10)
+        {
+            RockOne.SetActive(true);
+        }
+
+        if (MaxRock == 20 && CurrentRocks == 20)
+        {
+            RockTwo.SetActive(true);
+        }
 
         if (CurrentRocks >= MaxRock)
         {
