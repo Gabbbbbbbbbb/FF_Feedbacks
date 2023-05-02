@@ -37,13 +37,27 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private GameObject TreeTwo;
     [SerializeField] private GameObject TreeThree;
     [SerializeField] private GameObject TreeFour;
-    
+
+    [Header("Rocks")]
+    [SerializeField] private Slider RockSlider;
+    [SerializeField] private int MinRock = 0;
+    [SerializeField] private int MaxRock = 10;
+    [SerializeField] private int CurrentRocks;
+    [SerializeField] private TextMeshProUGUI ScoreRock;
+    [SerializeField] private TextMeshProUGUI ScoreRocks;
+    [SerializeField] private Animator r_Animator;
+
+
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
     {
         RepSlider.maxValue = MaxSlider;
         RepSlider.minValue = MinSlider;
         CurrentSlider = MinSlider;
+
+        RockSlider.maxValue = MaxRock;
+        RockSlider.minValue = MinRock;
+        CurrentRocks = MinRock;
     }
 
     //Called by the TreeHit script.
@@ -95,5 +109,24 @@ public class GameManagerUI : MonoBehaviour
         RepSlider.maxValue = MaxSlider;
 
         ObjectiveNb.text = MaxSlider.ToString();
+    }
+
+    //Called by the RocksHit script.
+    public void Rock()
+    {
+        CurrentRocks++;
+        RockSlider.value = CurrentRocks;
+
+        if (CurrentRocks >= MaxRock)
+        {
+            //Debug.Log("Plus");
+            r_Animator.SetTrigger("Achieved");
+            source.PlayOneShot(Transi);
+            MaxRock += 10;
+            CurrentRocks = 0;
+
+            RockSlider.maxValue = MaxRock;
+            RockSlider.value = CurrentRocks;
+        }
     }
 }
