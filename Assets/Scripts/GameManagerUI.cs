@@ -44,7 +44,7 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private int MaxRock = 10;
     [SerializeField] private int CurrentRocks;
     [SerializeField] private TextMeshProUGUI ScoreRock;
-    [SerializeField] private TextMeshProUGUI ScoreRocks;
+    [SerializeField] private TextMeshProUGUI ObjectiveR;
     [SerializeField] private Animator r_Animator;
 
 
@@ -117,6 +117,9 @@ public class GameManagerUI : MonoBehaviour
         CurrentRocks++;
         RockSlider.value = CurrentRocks;
 
+        ScoreRock.text = CurrentRocks.ToString();
+        ObjectiveR.text = MaxRock.ToString();
+
         if (CurrentRocks >= MaxRock)
         {
             //Debug.Log("Plus");
@@ -127,6 +130,8 @@ public class GameManagerUI : MonoBehaviour
 
             RockSlider.maxValue = MaxRock;
             RockSlider.value = CurrentRocks;
+            ScoreRock.text = CurrentRocks.ToString();
+            ObjectiveR.text = MaxRock.ToString();
         }
     }
 }
