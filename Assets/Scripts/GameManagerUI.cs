@@ -51,6 +51,8 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private GameObject RockOne;
     [SerializeField] private GameObject RockTwo;
 
+    [Header("End Objectives")]
+    [SerializeField] bool R_Slide = true; 
 
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
@@ -91,6 +93,8 @@ public class GameManagerUI : MonoBehaviour
         if (MaxSlider == 35 && CurrentSlider == 35)
         {
             TreeFour.SetActive(true);
+            F_Slide = false;
+            m_Animator.SetTrigger("END");
         }
 
         if (CurrentSlider >= MaxSlider && F_Slide)
@@ -132,9 +136,11 @@ public class GameManagerUI : MonoBehaviour
         if (MaxRock == 20 && CurrentRocks == 20)
         {
             RockTwo.SetActive(true);
+            r_Animator.SetTrigger("END");
+            R_Slide = false;
         }
 
-        if (CurrentRocks >= MaxRock)
+        if (CurrentRocks >= MaxRock && R_Slide)
         {
             //Debug.Log("Plus");
             r_Animator.SetTrigger("Achieved");

@@ -24151,6 +24151,7 @@ MonoBehaviour:
   r_Animator: {fileID: 1290270618}
   RockOne: {fileID: 351471917}
   RockTwo: {fileID: 604926372}
+  R_Slide: 1
 --- !u!1001 &1432813962
 PrefabInstance:
   m_ObjectHideFlags: 0
