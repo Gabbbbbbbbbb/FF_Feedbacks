@@ -6,24 +6,23 @@ public class CamAnimTest : MonoBehaviour
 {
     private Animator m_Animator;
 
-    bool Movement;
+    //bool Movement;
 
     void Start()
     {
         m_Animator = gameObject.GetComponent<Animator>();
-        Movement = false;
+        //Movement = false;
     }
 
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        /*if (Input.GetMouseButton(0))
         {
             //Debug.Log("Click");
             Movement = true;
-        }
+        }*/
 
-
-        else
+        /*else
         {
             Movement = false;
         }
@@ -36,6 +35,11 @@ public class CamAnimTest : MonoBehaviour
         if (Movement == false)
         {
             m_Animator.SetBool("Move", false);
-        }
+        }*/
+    }
+
+    public void AnimTrigger()
+    {
+        m_Animator.SetTrigger("MOVE");
     }
 }

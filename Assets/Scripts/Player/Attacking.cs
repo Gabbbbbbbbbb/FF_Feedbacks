@@ -24,6 +24,8 @@ public class Attacking : MonoBehaviour
 
     public GameObject Sound;
 
+    public CamAnimTest CamAnimTest;
+
     private void Start()
     {
         m_Animator = gameObject.GetComponent<Animator>();
@@ -118,5 +120,10 @@ public class Attacking : MonoBehaviour
     public void EndSweep()
     {
         Sound.SetActive(false);
+    }
+
+    public void Cam()
+    {
+        CamAnimTest.AnimTrigger();
     }
 }
