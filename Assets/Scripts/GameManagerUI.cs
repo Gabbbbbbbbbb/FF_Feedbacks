@@ -52,7 +52,10 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private GameObject RockTwo;
 
     [Header("End Objectives")]
-    [SerializeField] bool R_Slide = true; 
+    [SerializeField] bool R_Slide = true;
+
+    /*[Header("Menu")]
+    [SerializeField] private bool Escape = false;*/
 
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
@@ -154,4 +157,12 @@ public class GameManagerUI : MonoBehaviour
             ObjectiveR.text = MaxRock.ToString();
         }
     }
+
+    /*void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Escape key was pressed");
+        }
+    }*/
 }

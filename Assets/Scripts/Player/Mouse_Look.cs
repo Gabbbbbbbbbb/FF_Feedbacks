@@ -28,5 +28,11 @@ public class Mouse_Look : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            mouseSensitivity = 0f;
+        }
     }
 }
