@@ -26,6 +26,8 @@ public class Attacking : MonoBehaviour
 
     public CamAnimTest CamAnimTest;
 
+    public bool ItCan = true;
+
     private void Start()
     {
         m_Animator = gameObject.GetComponent<Animator>();
@@ -35,7 +37,7 @@ public class Attacking : MonoBehaviour
     //Two timers in progress
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && ItCan)
         {
             //Debug.Log("Pressed left click.");
             Ability = true;

@@ -13,6 +13,7 @@ public class Mouse_Look : MonoBehaviour
     float xRotation = 0f;
 
     [SerializeField] private Animator m_Animator;
+    [SerializeField] private Attacking Attacking;
 
     // Start is called before the first frame update
     void Start()
@@ -37,10 +38,14 @@ public class Mouse_Look : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
             mouseSensitivity = 0f;
             m_Animator.SetBool("Escape", true);
+            Attacking.ItCan = false;
         }
     }
-    void onClick()
+    public void Escaping()
     {
-        Debug.Log("Hey");
+        m_Animator.SetBool("Escape", false);
+        mouseSensitivity = 500f;
+        Cursor.lockState = CursorLockMode.Locked;
+        Attacking.ItCan = true;
     }
 }

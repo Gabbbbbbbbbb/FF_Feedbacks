@@ -9951,6 +9951,7 @@ MonoBehaviour:
   CanShoot: 1
   Sound: {fileID: 983665472}
   CamAnimTest: {fileID: 691120233}
+  ItCan: 1
 --- !u!82 &519271552
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17487,9 +17488,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: edf6da958e3581441a6dfd793fc50d99, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 759067280}
+        m_TargetAssemblyTypeName: Mouse_Look, Assembly-CSharp
+        m_MethodName: Escaping
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17706,6 +17707,7 @@ MonoBehaviour:
   mouseSensitivity: 500
   playerBody: {fileID: 35247824}
   m_Animator: {fileID: 2081937092}
+  Attacking: {fileID: 519271551}
 --- !u!1 &762755276
 GameObject:
   m_ObjectHideFlags: 0
