@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Mouse_Look : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Mouse_Look : MonoBehaviour
     public Transform playerBody;
 
     float xRotation = 0f;
+
+    [SerializeField] private Animator m_Animator;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +36,11 @@ public class Mouse_Look : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Confined;
             mouseSensitivity = 0f;
+            m_Animator.SetBool("Escape", true);
         }
+    }
+    void onClick()
+    {
+        Debug.Log("Hey");
     }
 }

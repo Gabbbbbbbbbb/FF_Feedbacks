@@ -18,6 +18,7 @@ public class SoundManager : MonoBehaviour
         AudioListener.volume = s_slider.value;
     }
 
+    // Code that makes the AudioListener update depending on the value of the Slider.
     void Update()
     {
         AudioListener.volume = s_slider.value;
