@@ -27,6 +27,7 @@ public class Attacking : MonoBehaviour
     public CamAnimTest CamAnimTest;
 
     public bool ItCan = true;
+    //float test = 0;
 
     private void Start()
     {
@@ -39,7 +40,8 @@ public class Attacking : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && ItCan)
         {
-            //Debug.Log("Pressed left click.");
+            //test += 1;
+            //Debug.Log(test);
             Ability = true;
             timerIsRunning = true;
             animeTimer = true;
