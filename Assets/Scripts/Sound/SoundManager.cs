@@ -5,10 +5,20 @@ using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
-    [SerializeField] private AudioListener Listen;
-    [SerializeField] private Slider s_slider;
+    public AudioListener Listen;
+    public Slider s_slider;
     [SerializeField] private float maxSlider = 1.0f;
     [SerializeField] private float minSlider = 0.0f;
+
+    public static SoundManager Instance;
+
+    public void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = null;
+        }
+    }
 
     // No need for custom currentValue since we can say that AudioListener.volume equals to the slider directly. Less code.
     void Start()
