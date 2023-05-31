@@ -1,32 +1,40 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
-
-public class SaveInfo : MonoBehaviour
+[Serializable]
+public class SaveInfo
 {
+
+    [Header("Scripts")]
+    public SoundManager soundManager;
+
+    [Header("Stocking")]
     //public Slider SoundSlider;
     public AudioListener SoundSlider;
-    public SoundManager SoundManager;
+
+    //The script allows the storage of data (by using "Data PlaceHolder").
+
+    public SaveInfo()
+    {
+        if (SoundManager.Instance != null) soundManager = SoundManager.Instance;
+    }
+
 
     public void Save()
     {
         if (SoundManager.Instance != null) 
         {
-            SoundSlider = SoundManager.Listen;
+            SoundSlider = soundManager.Listen;
+            // Test, not working rn (need to convert things to numbers I guess ?? SoundSlider = soundManager.s_slider;
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void Load()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SoundManager.Instance.Listen = SoundSlider;
     }
 }
