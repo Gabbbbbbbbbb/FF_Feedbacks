@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 
 public class SaveLoad : MonoBehaviour
 {
-    public SaveInfo saveInfo;
+    private SaveInfo saveInfo;
 
     //This script allows us to create a json file and to "write" on it by using buttons. It also allows us to 
 

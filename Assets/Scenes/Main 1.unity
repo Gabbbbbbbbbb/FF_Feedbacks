@@ -25022,6 +25022,7 @@ MonoBehaviour:
   MaxSlider: 5
   CurrentSlider: 0
   ScoreText: {fileID: 1933646939}
+  Value: 0
   m_Animator: {fileID: 228971486}
   F_Slide: 1
   UiSpawn: {fileID: 1475303385}
@@ -26660,7 +26661,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1603996591}
-  - component: {fileID: 1603996590}
   - component: {fileID: 1603996592}
   m_Layer: 0
   m_Name: SaveManager
@@ -26669,20 +26669,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1603996590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1603996589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 468a17269780c9d408438357c1efe276, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundManager: {fileID: 577173674}
-  SoundSlider: {fileID: 691120228}
 --- !u!4 &1603996591
 Transform:
   m_ObjectHideFlags: 0
@@ -26710,7 +26696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e00d3aade86528479653d8e268f7aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveInfo: {fileID: 1603996590}
 --- !u!1001 &1604523026
 PrefabInstance:
   m_ObjectHideFlags: 0

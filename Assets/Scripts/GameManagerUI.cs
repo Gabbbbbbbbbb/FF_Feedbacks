@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class GameManagerUI : MonoBehaviour
 {
+    public static GameManagerUI instance;
+
     [Header("Slider")]
     [SerializeField] private Slider RepSlider;
     [SerializeField] private int MinSlider = 0;
@@ -15,7 +17,7 @@ public class GameManagerUI : MonoBehaviour
 
     [Header("Texte")]
     [SerializeField] private TextMeshProUGUI ScoreText;
-    int Value = 0;
+    public int Value = 0;
 
     public Animator m_Animator;
     [SerializeField] private bool F_Slide = true;
@@ -56,6 +58,14 @@ public class GameManagerUI : MonoBehaviour
 
     /*[Header("Menu")]
     [SerializeField] private bool Escape = false;*/
+
+    public void Awake()
+    {
+        if (instance == null)
+        {
+            instance = null;
+        }
+    }
 
     //This script gets called by the TreeHit script to update the score and Slider.
     void Start()
