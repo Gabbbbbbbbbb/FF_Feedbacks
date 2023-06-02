@@ -63,7 +63,7 @@ public class GameManagerUI : MonoBehaviour
     {
         if (instance == null)
         {
-            instance = null;
+            instance = this;
         }
     }
 
@@ -87,7 +87,6 @@ public class GameManagerUI : MonoBehaviour
         RepSlider.value = CurrentSlider;
 
         Value++;
-        ScoreText.text = Value.ToString();
 
         CurrentSco.text = CurrentSlider.ToString();
 
@@ -168,11 +167,8 @@ public class GameManagerUI : MonoBehaviour
         }
     }
 
-    /*void Update()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Debug.Log("Escape key was pressed");
-        }
-    }*/
+        ScoreText.text = Value.ToString(); 
+    }
 }
