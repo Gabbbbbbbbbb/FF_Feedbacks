@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1351134, g: 0.14565808, b: 0.13781051, a: 1}
+  m_IndirectSpecularColor: {r: 0.13517936, g: 0.14575727, b: 0.13796015, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15543,7 +15543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Listen: {fileID: 691120228}
   s_slider: {fileID: 577173675}
-  maxSlider: 1
+  maxSlider: 2
   minSlider: 0
 --- !u!114 &577173675
 MonoBehaviour:
@@ -26697,6 +26697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveInfo:
+    soundManager: {fileID: 0}
     gameManagerUI: {fileID: 1420763958}
     score: 0
 --- !u!1001 &1604523026

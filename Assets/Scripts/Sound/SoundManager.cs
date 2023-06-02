@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SoundManager : MonoBehaviour
 {
     public AudioListener Listen;
-    [SerializeField] private Slider s_slider;
+    public Slider s_slider;
     [SerializeField] private float maxSlider = 1.0f;
     [SerializeField] private float minSlider = 0.0f;
 
@@ -17,7 +17,7 @@ public class SoundManager : MonoBehaviour
     {
         if (Instance == null)
         {
-            Instance = null;
+            Instance = this;
         }
     }
 
@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour
     {
         s_slider.maxValue = maxSlider;
         s_slider.minValue = minSlider;
+        s_slider.value = 1f;
         AudioListener.volume = s_slider.value;
     }
 
