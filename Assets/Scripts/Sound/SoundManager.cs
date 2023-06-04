@@ -7,7 +7,6 @@ public class SoundManager : MonoBehaviour
 {
     public AudioListener Listen;
     public Slider s_slider;
-    public float volumeValue;
 
     [SerializeField] private float maxSlider = 1.0f;
     [SerializeField] private float minSlider = 0.0f;
@@ -28,17 +27,15 @@ public class SoundManager : MonoBehaviour
     {
         s_slider.maxValue = maxSlider;
         s_slider.minValue = minSlider;
-        s_slider.value = volumeValue;
-        volumeValue = 0.5f;
+        s_slider.value = 0.5f;
 
         AudioListener.volume = s_slider.value;
     }
 
     // Code that makes the AudioListener update depending on the value of the Slider.
-    //Took me 3 fricking hours to figure out how to save this AudioListener... It annoyed for so long and ruined my Week-End...
+    //Took me 3 fricking hours to figure out how to save this AudioListener... wth
     void Update()
     {
-        volumeValue = s_slider.value;
-        AudioListener.volume = volumeValue;
+        AudioListener.volume = s_slider.value;
     }
 }

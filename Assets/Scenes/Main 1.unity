@@ -15543,7 +15543,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Listen: {fileID: 691120228}
   s_slider: {fileID: 577173675}
-  volumeValue: 0
   maxSlider: 1
   minSlider: 0
 --- !u!114 &577173675
@@ -26702,7 +26701,6 @@ MonoBehaviour:
     gameManagerUI: {fileID: 1420763958}
     score: 0
     volumeSlider: 0
-    volume: {fileID: 691120228}
 --- !u!1001 &1604523026
 PrefabInstance:
   m_ObjectHideFlags: 0
