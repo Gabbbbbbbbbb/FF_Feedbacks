@@ -6,20 +6,17 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using TMPro;
 
-
 public class SaveLoad : MonoBehaviour
 {
     public SaveInfo saveInfo;
-    public TMP_Dropdown Dropdown;
 
     //This script allows us to create a json file and to "write" on it by using buttons. 
 
     private void Start()
     {
         LoadFile();
-        AllFiles();
+        LoadFileSecond();
     }
-
 
     public void SaveToFile()
     {
@@ -31,8 +28,6 @@ public class SaveLoad : MonoBehaviour
         }
 
         File.WriteAllText(Application.persistentDataPath + "/data.save", json);
-
-        AllFiles();
     }
 
     public void LoadFile()
@@ -49,7 +44,47 @@ public class SaveLoad : MonoBehaviour
         }
     }
 
-    public void AllFiles()
+
+
+
+
+    public void SaveToFileSecond()
+    {
+        saveInfo.Save();
+        string json = JsonUtility.ToJson(saveInfo);
+        if (!File.Exists(Application.persistentDataPath + "/datas.save"))
+        {
+            File.Create(Application.persistentDataPath + "/datas.save").Dispose();
+        }
+
+        File.WriteAllText(Application.persistentDataPath + "/datas.save", json);
+    }
+
+    public void LoadFileSecond()
+    {
+        if (File.Exists(Application.persistentDataPath + "/datas.save"))
+        {
+            string json = File.ReadAllText(Application.persistentDataPath + "/datas.save");
+            saveInfo = JsonUtility.FromJson<SaveInfo>(json);
+            saveInfo.Load();
+        }
+        else
+        {
+            saveInfo = new SaveInfo();
+        }
+    }
+
+    public void DeletedFileSecond()
+    {
+        //file.Name.Contains("datas.save")
+    }
+
+
+
+    //Idk about a list. I want to try an array + 4 save file + inputfield to choose save file name... Idk how to do that (yet) and it is taking too much of my time rn.
+
+
+    /*public void AllFiles()
     {
         List<string> possibleSaveFiles = new List<string>();
 
@@ -60,9 +95,7 @@ public class SaveLoad : MonoBehaviour
             if (file.Name.Contains(".save"))
             {
                 possibleSaveFiles.Add(file.Name);
-                
             }
         }
-        Dropdown.AddOptions(possibleSaveFiles);
-    }
+    }*/
 }
