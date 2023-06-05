@@ -4,17 +4,20 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using TMPro;
 
 
 public class SaveLoad : MonoBehaviour
 {
     public SaveInfo saveInfo;
+    public TMP_Dropdown Dropdown;
 
-    //This script allows us to create a json file and to "write" on it by using buttons. It also allows us to 
+    //This script allows us to create a json file and to "write" on it by using buttons. 
 
     private void Start()
     {
         LoadFile();
+        AllFiles();
     }
 
 
@@ -28,6 +31,8 @@ public class SaveLoad : MonoBehaviour
         }
 
         File.WriteAllText(Application.persistentDataPath + "/data.save", json);
+
+        AllFiles();
     }
 
     public void LoadFile()
@@ -42,5 +47,22 @@ public class SaveLoad : MonoBehaviour
         {
             saveInfo = new SaveInfo();
         }
+    }
+
+    public void AllFiles()
+    {
+        List<string> possibleSaveFiles = new List<string>();
+
+        DirectoryInfo info = new DirectoryInfo(Application.persistentDataPath);
+        FileInfo[] fileInfo = info.GetFiles();
+        foreach (FileInfo file in fileInfo)
+        {
+            if (file.Name.Contains(".save"))
+            {
+                possibleSaveFiles.Add(file.Name);
+                
+            }
+        }
+        Dropdown.AddOptions(possibleSaveFiles);
     }
 }
