@@ -10,10 +10,10 @@ public class GameManagerUI : MonoBehaviour
     public static GameManagerUI instance;
 
     [Header("Slider")]
-    [SerializeField] private Slider RepSlider;
+    public Slider RepSlider;
     [SerializeField] private int MinSlider = 0;
-    [SerializeField] private int MaxSlider = 5;
-    [SerializeField] private int CurrentSlider;
+    public int MaxSlider = 5;
+    public int CurrentSlider;
 
     [Header("Texte")]
     [SerializeField] private TextMeshProUGUI ScoreText;
@@ -27,8 +27,8 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private GameObject ScorePlus;
 
     [Header("Slider Text")]
-    [SerializeField] private TextMeshProUGUI ObjectiveNb;
-    [SerializeField] private TextMeshProUGUI CurrentSco;
+    public TextMeshProUGUI ObjectiveNb;
+    public TextMeshProUGUI CurrentSco;
 
     [Header("Sound")]
     [SerializeField] private AudioSource source;
@@ -43,8 +43,8 @@ public class GameManagerUI : MonoBehaviour
     [Header("Rocks")]
     [SerializeField] private Slider RockSlider;
     [SerializeField] private int MinRock = 0;
-    [SerializeField] private int MaxRock = 10;
-    [SerializeField] private int CurrentRocks;
+    public int MaxRock = 10;
+    public int CurrentRocks;
     [SerializeField] private TextMeshProUGUI ScoreRock;
     [SerializeField] private TextMeshProUGUI ObjectiveR;
     [SerializeField] private Animator r_Animator;
@@ -85,7 +85,6 @@ public class GameManagerUI : MonoBehaviour
     {
         //Debug.Log("Gain");
         CurrentSlider++;
-        RepSlider.value = CurrentSlider;
 
         Value++;
 
@@ -124,12 +123,7 @@ public class GameManagerUI : MonoBehaviour
     public void ScorePlusPlus()
     {
         CurrentSlider = MinSlider;
-        CurrentSco.text = CurrentSlider.ToString();
         MaxSlider += 10;
-        RepSlider.value = CurrentSlider;
-        RepSlider.maxValue = MaxSlider;
-
-        ObjectiveNb.text = MaxSlider.ToString();
     }
 
     //Called by the RocksHit script.
@@ -138,8 +132,7 @@ public class GameManagerUI : MonoBehaviour
         CurrentRocks++;
         RockSlider.value = CurrentRocks;
 
-        ScoreRock.text = CurrentRocks.ToString();
-        ObjectiveR.text = MaxRock.ToString();
+        
 
         if (MaxRock == 10 && CurrentRocks == 10)
         {
@@ -161,8 +154,6 @@ public class GameManagerUI : MonoBehaviour
             MaxRock += 10;
             CurrentRocks = 0;
 
-            RockSlider.maxValue = MaxRock;
-            RockSlider.value = CurrentRocks;
             ScoreRock.text = CurrentRocks.ToString();
             ObjectiveR.text = MaxRock.ToString();
         }
@@ -170,7 +161,18 @@ public class GameManagerUI : MonoBehaviour
 
     void Update()
     {
-        ScoreText.text = Value.ToString(); 
+        ScoreText.text = Value.ToString();
+        CurrentSco.text = CurrentSlider.ToString();
+        RepSlider.value = CurrentSlider;
+        RepSlider.maxValue = MaxSlider;
+        ObjectiveNb.text = MaxSlider.ToString();
+        RepSlider.value = CurrentSlider;
+
+        ScoreRock.text = CurrentRocks.ToString();
+        ObjectiveR.text = MaxRock.ToString();
+        RockSlider.maxValue = MaxRock;
+        RockSlider.value = CurrentRocks;
+
     }
 
     #region Save&Load
