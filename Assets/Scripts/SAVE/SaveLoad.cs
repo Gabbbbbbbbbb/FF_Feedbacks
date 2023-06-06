@@ -44,7 +44,10 @@ public class SaveLoad : MonoBehaviour
         }
     }
 
-
+    public void DeleteFile()
+    {
+        File.Delete(Application.persistentDataPath + "/data.save");
+    }
 
 
 
@@ -74,9 +77,9 @@ public class SaveLoad : MonoBehaviour
         }
     }
 
-    public void DeletedFileSecond()
+    public void DeleteFileSecond()
     {
-        //file.Name.Contains("datas.save")
+        File.Delete(Application.persistentDataPath + "/datas.save");
     }
 
 

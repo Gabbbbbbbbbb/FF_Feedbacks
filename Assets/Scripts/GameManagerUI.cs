@@ -56,8 +56,9 @@ public class GameManagerUI : MonoBehaviour
     [Header("End Objectives")]
     [SerializeField] bool R_Slide = true;
 
-    /*[Header("Menu")]
-    [SerializeField] private bool Escape = false;*/
+    [Header("Save Menu")]
+    [SerializeField] private GameObject MenuSave;
+    [SerializeField] private GameObject MenuLoad;
 
     public void Awake()
     {
@@ -171,4 +172,24 @@ public class GameManagerUI : MonoBehaviour
     {
         ScoreText.text = Value.ToString(); 
     }
+
+    #region Save&Load
+    public void SaveFilesB()
+    {
+        MenuSave.SetActive(true);
+    }
+    public void SaveFilesDisappear()
+    {
+        MenuSave.SetActive(false);
+    }
+
+    public void LoadFilesAppear()
+    {
+        MenuLoad.SetActive(true);
+    }
+    public void LoadFilesDisappear()
+    {
+        MenuLoad.SetActive(false);
+    }
+    #endregion
 }
