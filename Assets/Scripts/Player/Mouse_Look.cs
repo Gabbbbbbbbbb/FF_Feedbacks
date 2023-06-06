@@ -44,7 +44,7 @@ public class Mouse_Look : MonoBehaviour
     public void Escaping()
     {
         m_Animator.SetBool("Escape", false);
-        mouseSensitivity = 500f;
+        mouseSensitivity = 200f;
         Cursor.lockState = CursorLockMode.Locked;
         Attacking.ItCan = true;
     }
